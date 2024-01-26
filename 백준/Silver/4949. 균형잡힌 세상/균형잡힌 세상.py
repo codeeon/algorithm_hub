@@ -1,5 +1,3 @@
-# import sys
-
 pair = {
     ')' : '(',
     ']' : '[',
@@ -8,8 +6,8 @@ opener = '(['
 closer = ')]'
 
 while True:
-    case = input().rstrip()
-    if ' ' not in case and case == '.':
+    case = input()
+    if case and case == '.':
         break
 
     stack = []
