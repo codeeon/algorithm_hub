@@ -8,7 +8,7 @@ A = sorted(map(int, data[1:N+1]))
 M = int(data[N+1])
 X = list(map(int, data[N+2:]))
 
-def binary_search(arr, target):
+def binarySearch(arr, target):
     left, right = 0, len(arr) - 1
     while left <= right:
         mid = (left + right) // 2
@@ -21,4 +21,4 @@ def binary_search(arr, target):
     return 0
 
 for x in X:
-    print(binary_search(A, x))
+    print(binarySearch(A, x))
