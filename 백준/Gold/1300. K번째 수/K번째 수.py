@@ -11,7 +11,6 @@ def countLessOrEqual(x):
     return cnt
 
 left, right = 1, N * N
-
 answer = 0
 
 while left <= right:
